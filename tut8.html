@@ -2,22 +2,25 @@
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
 </head>
 
 <body>
+
     <div>
         <h1>Trip</h1>
+
+        <!--Data goes to php-->
         <form action="form.php">
-            <!--Data goes to php-->
+            
             <input type="text" placeholder="Name"> <br>
             <label for="sectionIda">
                 <input type="radio" value="Section A" name="Yash" id="sectionIda">Section A
-                <!--id = unique identifier-->
-                <!--radio called as one button like radio-->
             </label>
             <label for="sectionIdb">
                 <input type="radio" value="Section B" name="Yash" id="sectionIdb">Section B
@@ -27,21 +30,21 @@
             </label><br>
             <input type="checkbox" id="canteen" class="red" name="dabbawala">
             <label for="canteen">Canteen</label><br>
-            <!--Class is like Manekshaw House(more than 1)-->
-            <!-- backend identifies type of element by name -->
-            <!-- for = id checkbox clicking -->
-            <!-- https://developer.mozilla.org/en-US/docs/Web/HTML -->
+
+            <!-- id = unique identifier like Roll No.(Only 1)-->
+            <!-- Class is like Name(more than 1)-->
+ 
             <textarea name="Explain" id="Explain" rows="10" cols="30" placeholder="Explain Why Join"></textarea>
             <select name="Car" id="Car">
                 <option value="no-car">Select Car</option>
                 <option value="omni">Omni1</option>
                 <option value="omni">Omni2</option>
-
             </select>
 
-
         </form>
+
     </div>
+
 </body>
 
 </html>
