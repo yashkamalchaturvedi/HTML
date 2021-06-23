@@ -19,7 +19,7 @@ You will need to download [Visual Studio Code](https://code.visualstudio.com/doc
 I learned about the following :
 - How to make Basic HTML Page ? (head,title,body)
 - How and when to use which basic HTML Tags with its attribute ? (a,h1..h6,b,sub,sup,big,small,href,pre,img,video,iframe)
-- How to create a Page Layout in HTML ? (header,main,footer)
+- How to create a Page Layout in HTML ? (header,main,footer,div,span)
 - How to make a Table in HTML ? (table,thead,tbody,tr,th,td,caption)
 - How to make a Form in HTML ? (form,input,label,textarea,select)
 - How to make a List in HTML ? (li,ul,ol)
