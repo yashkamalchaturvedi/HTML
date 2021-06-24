@@ -49,7 +49,7 @@ I use these VS code extensions to support my development workflow.
 
 - HTML guarantees that text and pictures are properly formatted for your Internet browser. 
 - A browser would not be able to display text as elements or load pictures or other components if HTML was not present. 
-- _It defines the page's basic skeleton._
+- It defines the page's basic skeleton.
 
 #### What is a Tag in HTML?
 
