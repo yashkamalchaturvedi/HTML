@@ -4,7 +4,7 @@ This repository contains 10 programs from basic to intermediate level coding in 
 
 ## Documentation
 
-[HTML Documentation](https://devdocs.io/html-attributes/)
+[HTML Documentation](https://devdocs.io/html/)
 
 ## Feedback
 
