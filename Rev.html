@@ -1,0 +1,118 @@
+<!-- https://htmlcheatsheet.com/ -->
+
+<!-- HTML Files :~ Every Web page is a Html file. Each Html file is just a plain text file with ".html" file extension  -->
+
+<!-- HTML Tags 
+~ Every Html file is made up of numerous HTML Tags.
+~ Html tags are hidden keywords within a Web page that defines format of that particular Web Browser.
+~ Most tags have two parts namely 'Closing Tag' and 'Opening Tag'. (Note that closing tag has the same text as the opening tag but has additional forward slash / character.  -->
+
+<!-- Essential Html Tags :-
+1. <html></html> : All tags fall in between the html tags. It defines the document as Web page. 
+2. <head></head> : The header contains information like title of the document that won't appear on actual page. 
+3. <title></title> : The title defines the title that will appear in the title bar of the Web browser. 
+4. <body></body> : The body tags contain all the visible content of the page including all images, links, etc.  -->
+
+<!-- Basic Tags- 
+1. Headings and Subheadings : <h1> A heading </h1>
+There are 6 levels of headings available from smallest to largest. ( h1 to h6) 
+2. Paragraphs : <p> Some text  </p> 
+3. Links : <a href = "URL" </a> 
+4. Image : <img src = "photo.jpg">  -->
+
+<!-- Tag Attributes 
+Attributes helps one to customize a tag and are defined within the opening tag. For Example - <ol type = "a"> 
+ol stands for Ordered list and ul for Unordered List 
+~ Attributes are often assigned a value using the equal sign, such as width = 65% 
+~ Break Tag : <br> Tag is used for styling. In most cases it's preferred to use CSS and Java for Styling. 
+~ Comment Tag : It's not visible on the actual page but remains saved in the language itself. - this is a comment - -->
+
+<!-- ~ Form tag- It is used for adding a special Form to the Web page.
+<form> Enter your name : <input type = 'text'/> <form>  
+Similarly there are also other tags like <table> tags used to form a table with table row and table headings. Caption tags, Div Tags, Meta tags, etc. -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>This is my title</title>
+
+</head>
+
+<body>
+
+    <div id="mydiv" class="redbox">
+        <!-- https://www.rapidtables.com/web/html/html-codes.html -->
+        This is my name &#224
+    </div>
+
+    <h1>This is my heading 1 using h1 tag</h1>
+
+    <p>HTML Programmer</p>
+
+    <h2>This is my heading 2 using h2 tag</h2>
+    <h3>This is my heading 3 using h3 tag</h3>
+    <h4>This is my heading 4 using h4 tag</h4>
+    <h5>This is my heading 5 using h5 tag</h5>
+    <h6>This is my heading 6 <br> using h6 tag</h6>
+
+    <ol type="A">
+        <li>item1</li>
+        <li>item2</li>
+        <li>item3</li>
+        <li>item4</li>
+    </ol>
+
+    <img src="https://www.thewrap.com/wp-content/uploads/2021/03/Invincible.jpeg">
+
+    <button> Click me </button> 
+
+    <ul>
+        <li>item1</li>
+        <li>item2</li>
+        <li>item3</li>
+        <li>item4</li>
+    </ul>
+
+    <form>
+    Enter your name:   <input type="text"/>
+    Enter your email:   <input type="email"/>
+    <button type="submit">submit form</button> 
+    </form>
+
+    <br>
+
+    <table style="width:100%;border: 1px solid black">
+        <caption> HTML Coding </caption>
+        <tr>
+            <th>Name</th>
+            <th>Role</th>
+            <th>Company</th>
+        </tr>
+        <tr>
+            <th>Sam</th>
+            <th>Developer</th>
+            <th>Youtube</th>
+        </tr>
+        <tr>
+            <th>Ram</th>
+            <th>Developer</th>
+            <th>Youtube</th>
+        </tr>
+        <tr>
+            <th>Roy</th>
+            <th>CEO</th>
+            <th>Youtube</th>
+        </tr>
+        <tr>
+            <th>Joy</th>
+            <th>Designer</th>
+            <th>Youtube</th>
+        </tr>
+    </table>
+    
+</body>
+</html>
