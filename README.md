@@ -1,6 +1,6 @@
 # HTML
 
-This repository contains a basic to intermediate level coding in HTML.
+This repository contains 10 programs from basic to intermediate level coding in HTML.
 
 ## Documentation
 
