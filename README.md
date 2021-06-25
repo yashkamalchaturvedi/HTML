@@ -6,8 +6,6 @@ This repository contains 11 programs from basic to intermediate level coding in 
 
 [HTML Documentation](https://devdocs.io/html/)
 
-[![Thor](https://res.cloudinary.com/marcomontalbano/image/upload/v1624591003/video_to_markdown/images/youtube--_IfYZZDTays-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://youtu.be/_IfYZZDTays "Thor")
-
 ## Feedback
 
 If you have any feedback, you can reach me out at [Yash Kamal Chaturvedi](https://twitter.com/yashkamalchatu1?lang=en)
